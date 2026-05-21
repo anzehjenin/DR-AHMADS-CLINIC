@@ -11,109 +11,89 @@
   "clinics": [
     {
       "id": "clinic-1",
-      "name": "Sehha Plus — Al Olaya",
-      "location": "Al Olaya District, Riyadh",
+      "name": "Sehha Plus — Sweifieh",
+      "location": "Sweifieh, Amman",
       "phone": "+962 11 234 5678"
     },
     {
       "id": "clinic-2",
-      "name": "Sehha Plus — Al Malqa",
-      "location": "Al Malqa District, Riyadh",
+      "name": "Sehha Plus — Khalda",
+      "location": "Khalda, Amman",
       "phone": "+962 11 345 6789"
     },
     {
       "id": "clinic-3",
-      "name": "Sehha Plus — Al Rawdah",
-      "location": "Al Rawdah District, Jeddah",
+      "name": "Sehha Plus — Jubeiha",
+      "location": "Jubeiha, Amman",
       "phone": "+962 12 456 7890"
     },
     {
       "id": "clinic-4",
-      "name": "Sehha Plus — Al Nakheel",
-      "location": "Al Nakheel District, Riyadh",
+      "name": "Sehha Plus — Marka",
+      "location": "Marka, Amman",
       "phone": "+962 11 567 8901"
     }
   ],
   "doctors": [
     {
       "id": "doc-1",
-      "name": "Dr. Khalid Al-Farsi",
+      "name": "Dr. Maha Suleiman (د. مها سليمان)",
       "specialty": "General Medicine",
       "clinicId": "clinic-1",
-      "avatar": "👨‍⚕️",
+      "avatar": "👩‍⚕️",
       "rating": 4.9,
-      "bio": "Experienced family physician with 12 years of practice. Specializes in preventive care.",
+      "bio": "Experienced general medicine practitioner. Known for compassionate patient care and extensive experience.",
       "reviewCount": 234
     },
     {
       "id": "doc-2",
-      "name": "Dr. Nora Al-Salem",
-      "specialty": "Dermatology",
+      "name": "Dr. Ramzi Haddad (د. رمزي حداد)",
+      "specialty": "Pediatrics",
       "clinicId": "clinic-1",
-      "avatar": "👩‍⚕️",
+      "avatar": "👨‍⚕️",
       "rating": 4.8,
-      "bio": "Board-certified dermatologist. Expert in cosmetic and medical dermatology.",
+      "bio": "Compassionate pediatric consultant specializing in child growth, developmental health, and general checkups.",
       "reviewCount": 189
     },
     {
       "id": "doc-3",
-      "name": "Dr. Ahmed Al-Harbi",
-      "specialty": "Pediatrics",
+      "name": "Dr. Yasmin Abu Joudeh (د. ياسمين أبو جودة)",
+      "specialty": "Dermatology",
       "clinicId": "clinic-2",
-      "avatar": "👨‍⚕️",
+      "avatar": "👩‍⚕️",
       "rating": 4.7,
-      "bio": "Gentle pediatrician loved by kids and parents. Specializes in child development.",
+      "bio": "Board-certified dermatologist. Expert in treating complex clinical skin conditions and cosmetic dermatology.",
       "reviewCount": 312
     },
     {
       "id": "doc-4",
-      "name": "Dr. Layla Al-Mutairi",
-      "specialty": "Cardiology",
-      "clinicId": "clinic-2",
-      "avatar": "👩‍⚕️",
+      "name": "Dr. Selim Nashashibi (د. سليم نشاشيبي)",
+      "specialty": "General Medicine",
+      "clinicId": "clinic-3",
+      "avatar": "👨‍⚕️",
       "rating": 4.9,
-      "bio": "Leading cardiologist with advanced training in heart health and prevention.",
+      "bio": "Dedicated family medicine expert with advanced training in preventive diagnostics and long-term care management.",
       "reviewCount": 156
     },
     {
       "id": "doc-5",
-      "name": "Dr. Omar Al-Dosari",
-      "specialty": "Dentistry",
-      "clinicId": "clinic-3",
-      "avatar": "👨‍⚕️",
+      "name": "Dr. Nadia Qaqish (د. ناديا قاقيش)",
+      "specialty": "Pediatrics",
+      "clinicId": "clinic-4",
+      "avatar": "👩‍⚕️",
       "rating": 4.6,
-      "bio": "Compassionate dentist specializing in restorative and cosmetic procedures.",
+      "bio": "Experienced, family-focused pediatrician specializing in infant health care and early childhood medicine.",
       "reviewCount": 201
     },
     {
       "id": "doc-6",
-      "name": "Dr. Fatima Al-Zahrani",
+      "name": "Dr. Bassam Khoury (د. بسام خوري)",
       "specialty": "Dermatology",
-      "clinicId": "clinic-3",
-      "avatar": "👩‍⚕️",
-      "rating": 4.8,
-      "bio": "Skin care specialist with expertise in acne, eczema, and laser treatments.",
-      "reviewCount": 178
-    },
-    {
-      "id": "doc-7",
-      "name": "Dr. Youssef Al-Qahtani",
-      "specialty": "General Medicine",
-      "clinicId": "clinic-4",
+      "clinicId": "clinic-1",
       "avatar": "👨‍⚕️",
-      "rating": 4.5,
-      "bio": "Dedicated general practitioner focused on holistic health and wellness.",
-      "reviewCount": 145
-    },
-    {
-      "id": "doc-8",
-      "name": "Dr. Hana Al-Ghamdi",
-      "specialty": "Pediatrics",
-      "clinicId": "clinic-4",
-      "avatar": "👩‍⚕️",
-      "rating": 4.7,
-      "bio": "Experienced pediatrician with a warm, family-centered approach to child care.",
-      "reviewCount": 267
+      "rating": 4.8,
+      "bio": "Skin wellness specialist with over a decade of clinical experience in acne, medical laser, and skin checks.",
+      "reviewCount": 178
     }
   ],
   "appointments": [
@@ -140,21 +120,21 @@
       "time": "11:30 AM",
       "duration": 45,
       "status": "upcoming",
-      "type": "Skin Consultation",
-      "notes": "Follow-up on previous dermatology assessment."
+      "type": "Pediatric Consult",
+      "notes": "Follow-up on previous pediatric assessment."
     },
     {
       "id": "apt-3",
       "patientId": "patient-1",
       "patientName": "Sara Al-Rashid",
-      "doctorId": "doc-4",
+      "doctorId": "doc-3",
       "clinicId": "clinic-2",
       "date": "2026-05-28",
       "time": "02:00 PM",
       "duration": 60,
       "status": "upcoming",
-      "type": "Cardiology Review",
-      "notes": "Routine heart health screening. Fasting recommended."
+      "type": "Skin Consultation",
+      "notes": "Routine skin screening."
     },
     {
       "id": "apt-4",
@@ -173,8 +153,8 @@
       "id": "apt-5",
       "patientId": "patient-1",
       "patientName": "Sara Al-Rashid",
-      "doctorId": "doc-3",
-      "clinicId": "clinic-2",
+      "doctorId": "doc-2",
+      "clinicId": "clinic-1",
       "date": "2026-03-15",
       "time": "09:30 AM",
       "duration": 30,
@@ -186,21 +166,21 @@
       "id": "apt-6",
       "patientId": "patient-1",
       "patientName": "Sara Al-Rashid",
-      "doctorId": "doc-5",
+      "doctorId": "doc-4",
       "clinicId": "clinic-3",
       "date": "2026-02-20",
       "time": "03:00 PM",
       "duration": 45,
       "status": "completed",
-      "type": "Dental Checkup",
-      "notes": "Routine dental examination. Minor cleaning performed."
+      "type": "General Consultation",
+      "notes": "Routine blood pressure assessment. Normal levels."
     },
     {
       "id": "apt-7",
       "patientId": "patient-1",
       "patientName": "Sara Al-Rashid",
-      "doctorId": "doc-6",
-      "clinicId": "clinic-3",
+      "doctorId": "doc-3",
+      "clinicId": "clinic-2",
       "date": "2026-01-12",
       "time": "01:00 PM",
       "duration": 30,
@@ -212,7 +192,7 @@
       "id": "apt-8",
       "patientId": "patient-1",
       "patientName": "Sara Al-Rashid",
-      "doctorId": "doc-8",
+      "doctorId": "doc-5",
       "clinicId": "clinic-4",
       "date": "2025-12-05",
       "time": "11:00 AM",
@@ -225,13 +205,13 @@
       "id": "apt-9",
       "patientId": "patient-1",
       "patientName": "Sara Al-Rashid",
-      "doctorId": "doc-7",
-      "clinicId": "clinic-4",
+      "doctorId": "doc-6",
+      "clinicId": "clinic-1",
       "date": "2026-04-28",
       "time": "04:00 PM",
       "duration": 30,
       "status": "cancelled",
-      "type": "General Consultation",
+      "type": "Dermatology Consultation",
       "notes": "Cancelled due to scheduling conflict. Freed slot for another patient."
     }
   ],
@@ -256,11 +236,6 @@
     { "id": "slot-18", "doctorId": "doc-5", "date": "2026-05-26", "time": "10:00 AM", "available": true },
     { "id": "slot-19", "doctorId": "doc-6", "date": "2026-05-24", "time": "08:00 AM", "available": true },
     { "id": "slot-20", "doctorId": "doc-6", "date": "2026-05-24", "time": "11:30 AM", "available": true },
-    { "id": "slot-21", "doctorId": "doc-6", "date": "2026-05-28", "time": "09:00 AM", "available": true },
-    { "id": "slot-22", "doctorId": "doc-7", "date": "2026-05-25", "time": "10:00 AM", "available": true },
-    { "id": "slot-23", "doctorId": "doc-7", "date": "2026-05-25", "time": "03:00 PM", "available": true },
-    { "id": "slot-24", "doctorId": "doc-8", "date": "2026-05-26", "time": "08:00 AM", "available": true },
-    { "id": "slot-25", "doctorId": "doc-8", "date": "2026-05-26", "time": "12:00 PM", "available": true },
-    { "id": "slot-26", "doctorId": "doc-8", "date": "2026-05-29", "time": "01:00 PM", "available": true }
+    { "id": "slot-21", "doctorId": "doc-6", "date": "2026-05-28", "time": "09:00 AM", "available": true }
   ]
 }
