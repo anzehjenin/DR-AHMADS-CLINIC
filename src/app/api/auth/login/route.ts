@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
       patient = await createPatient({
         name: 'New Patient',
         email: 'new.patient@email.com',
-        phone: phone.startsWith('+') ? phone : `+966 ${phone}`,
+        phone: phone.startsWith('+') ? phone : `+962 ${phone}`,
         avatar: '👤'
       });
     }

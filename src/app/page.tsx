@@ -98,7 +98,7 @@ export default function Home() {
               </label>
               <div className="flex gap-2">
                 <span className="inline-flex items-center px-4 rounded-xl border border-warm-gray-200 bg-warm-gray-50 text-warm-gray-600 text-sm font-semibold">
-                  +966
+                  +962
                 </span>
                 <input
                   type="tel"

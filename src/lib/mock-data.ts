@@ -62,25 +62,25 @@ export const clinics: Clinic[] = [
     id: 'clinic-1',
     name: 'Sehha Plus — Al Olaya',
     location: 'Al Olaya District, Riyadh',
-    phone: '+966 11 234 5678',
+    phone: '+962 11 234 5678',
   },
   {
     id: 'clinic-2',
     name: 'Sehha Plus — Al Malqa',
     location: 'Al Malqa District, Riyadh',
-    phone: '+966 11 345 6789',
+    phone: '+962 11 345 6789',
   },
   {
     id: 'clinic-3',
     name: 'Sehha Plus — Al Rawdah',
     location: 'Al Rawdah District, Jeddah',
-    phone: '+966 12 456 7890',
+    phone: '+962 12 456 7890',
   },
   {
     id: 'clinic-4',
     name: 'Sehha Plus — Al Nakheel',
     location: 'Al Nakheel District, Riyadh',
-    phone: '+966 11 567 8901',
+    phone: '+962 11 567 8901',
   },
 ];
 
@@ -175,7 +175,7 @@ export const currentPatient: Patient = {
   id: 'patient-1',
   name: 'Sara Al-Rashid',
   email: 'sara.alrashid@email.com',
-  phone: '+966 50 123 4567',
+  phone: '+962 50 123 4567',
   avatar: '👩',
 };
 
